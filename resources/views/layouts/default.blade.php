@@ -4,6 +4,8 @@
 @include('includes.head')
 <body>
 
+@include('includes.menu')
+
 @yield('content')
 
 </body>
