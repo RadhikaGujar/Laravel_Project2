@@ -10,5 +10,8 @@
     @yield('content')
 </main>
 
+@include('includes.jsfooter')
+@include('includes.footer')
+
 </body>
 </html>
