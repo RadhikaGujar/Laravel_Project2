@@ -6,7 +6,9 @@
 
 @include('includes.menu')
 
-@yield('content')
+<main role="main">
+    @yield('content')
+</main>
 
 </body>
 </html>
