@@ -1,10 +1,9 @@
+@extends('layouts.default')
 
-<!doctype html>
-<html lang="en">
+@section('content')
 
-    @include('includes.head')
-<body>
-<h1>Hello, world!</h1>
+    <br>
+    <br>
+    <h1>Hello, World!!</h1>
 
-</body>
-</html>
+@endsection
