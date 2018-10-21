@@ -11,14 +11,16 @@
 |
 */
 
-Route::get('/', 'PagesController@home')->Name('home');
+Route::get('/', 'PagesController@home')->name('home');
 
-Route::get('/about', 'PagesController@about')->Name('about');
+Route::get('/about', 'PagesController@about')->name('about');
 
-Route::get('/contact', 'PagesController@contact')->Name('contact');
+Route::get('/contact', 'PagesController@contact')->name('contact');
 
-Route::post('/contact', 'PagesController@store')->Name('contact.store');
+Route::post('/contact', 'PagesController@store')->name('contact.store');
 
+
+Route::get('/thankyou/{name}','pagesController@thankyou')->name('thankyou');
 /*Route::post('/contact', function () {
     $data = request()->all();
     echo "Name: " . $data['name'] , '<br>';
